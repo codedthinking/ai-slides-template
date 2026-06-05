@@ -350,27 +350,16 @@
 }
 
 
-/* ---- 9x grid mark (3×3 staircase) ---- */
+/* ---- 9x logo on title slides ---- */
 
-.x9-grid-mark {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
-  width: 72px;
-  margin: 0 auto 1.5em;
-}
-
-.x9-grid-mark i {
-  aspect-ratio: 1;
-  background: var(--x9-text-2);
-  border-radius: 3px;
+.x9-logo {
+  width: 180px;
+  height: auto;
+  margin: 0 auto 1.2em;
   display: block;
-  opacity: 0.25;
-}
-
-.x9-grid-mark i.on {
-  background: var(--x9-accent);
-  opacity: 1;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
 }
 
 
